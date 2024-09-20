@@ -26,7 +26,7 @@ The game runs entirely through a **command-line interface (CLI)**, allowing user
 2. Open a terminal or command-line window.
 3. Run the game using Python:
    ```bash
-   python improved_blackjack.py
+   python blackjack.py
 4. Follow the on-screen prompts to play a round of Blackjack.
 
 ## Notes
