@@ -42,7 +42,7 @@ The goal of Blackjack is to get as close to 21 points as possible without exceed
     ```
 
 ## Example Output
-
+```
 Player's Cards:
     ┌──────────┐     ┌──────────┐
     | 5        |     | K        |
@@ -62,7 +62,7 @@ Dealer's Cards:
     |        8 |
     └──────────┘
 Dealer's Score: 8
-
+```
 ## Closing Notes
 
 - This project is being committed all at once, as it was developed in 2022.
