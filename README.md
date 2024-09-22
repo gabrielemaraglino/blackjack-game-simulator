@@ -4,33 +4,66 @@ This is a **Blackjack game project** I coded in 2022 as the final project for my
 
 The game runs entirely through a **command-line interface (CLI)**, allowing users to play a classic game of Blackjack by inputting commands to make decisions like hitting or standing.
 
-## How the Game Works
+## Features
 
-- A deck of cards is generated, shuffled, and used to deal cards to both the player and the dealer.
-- The player receives two cards, and the dealer also receives two cards (one face-up and one face-down).
-- The player can choose to "Hit" (draw another card) or "Stand" (end their turn) by typing these options in the command line.
-- The dealer follows Blackjack rules, drawing cards until reaching at least 17 points.
-- The game automatically handles ace values, adjusting their score from 11 to 1 when necessary to prevent a bust.
-- The winner is determined by comparing the final scores, or based on whether the player or dealer busts (goes over 21).
-
-## Key Features
-
-- Full simulation of Blackjack rules, including handling for busts and Blackjack wins.
-- Simple, interactive command-line interface where the player inputs their choices.
-- Dynamic score calculation with ace value adjustments.
-- Dealer logic that adheres to standard Blackjack rules.
+- Classic Blackjack rules with a dealer and player.
+- Deck of 52 cards with suits and values.
+- Player and dealer decision-making (hit or stand).
+- Displays card graphics in the terminal.
+- Randomized shuffling and card drawing.
 
 ## How to Play
 
-1. Clone or download the project files to your machine.
-2. Open a terminal or command-line window.
-3. Run the game using Python:
+The goal of Blackjack is to get as close to 21 points as possible without exceeding it. Face cards (King, Queen, Jack) are worth 10 points, Aces can be worth 1 or 11 points, and all other cards are worth their face value.
+
+- **Hit**: Draw another card.
+- **Stand**: Keep your current hand and end your turn.
+- The dealer must hit until their score is at least 17.
+
+## Installation
+
+1. **Clone the repository**:
 
    ```bash
-   python blackjack.py
-5. Follow the on-screen prompts to play a round of Blackjack.
+    git clone https://github.com/your-username/blackjack.git
+    ```
 
-## Notes
+3. **Navigate to the project directory**:
+
+   ```bash
+    cd blackjack
+    ```
+
+5. **Run the game**:
+    Ensure you have Python installed. You can start the game by running:
+
+   ```bash
+    python blackjack.py
+    ```
+
+## Example Output
+
+Player's Cards:
+    ┌──────────┐     ┌──────────┐
+    | 5        |     | K        |
+    |          |     |          |
+    |    ♣     |     |    ♥     |
+    |          |     |          |
+    |        5 |     |       K  |
+    └──────────┘     └──────────┘
+Player's Score: 15
+
+Dealer's Cards:
+    ┌──────────┐
+    | 8        |
+    |          |
+    |    ♠     |
+    |          |
+    |        8 |
+    └──────────┘
+Dealer's Score: 8
+
+## Closing Notes
 
 - This project is being committed all at once, as it was developed in 2022.
 - It serves as a classic terminal-based game, perfect for learning or practicing command-line Python applications.
