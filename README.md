@@ -25,9 +25,10 @@ The game runs entirely through a **command-line interface (CLI)**, allowing user
 1. Clone or download the project files to your machine.
 2. Open a terminal or command-line window.
 3. Run the game using Python:
+
    ```bash
    python blackjack.py
-4. Follow the on-screen prompts to play a round of Blackjack.
+5. Follow the on-screen prompts to play a round of Blackjack.
 
 ## Notes
 
